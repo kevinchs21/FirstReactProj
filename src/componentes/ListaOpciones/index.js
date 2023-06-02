@@ -14,7 +14,7 @@ const ListaOpciones = (props) =>{
         "Innovacion y Gestion"
     ]
     const manejarCambio = (e) =>{
-        console.log("manejar cambio", e.target.value)
+       // console.log("manejar cambio", e.target.value)
         props.actualizarEquipo(e.target.value)
     }
     return <div className="lista-opciones">
