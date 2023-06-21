@@ -16,7 +16,7 @@ function App() {
       id: uuid(),
       equipo: "Alianza Lima",
       foto: "https://scontent.fcix1-1.fna.fbcdn.net/v/t1.6435-9/44733966_10216604893373290_7699723523786276864_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHjI7X9bbdlCin2REqo-7O6qVhRawEB2gipWFFrAQHaCFpKqUcUwNAWOGoAjNHjzmnPqcXZXbel357NZSK4SXtP&_nc_ohc=EC7feGgo0oEAX-2Xi-4&_nc_ht=scontent.fcix1-1.fna&oh=00_AfDobzVZpYkaLZe2fkS997nJmfedEy9LJqchKw__-cly2Q&oe=64AAFF90", 
-      nombre: "Diego Boulanger",
+      nombre: "Diego",
       puesto: "Defensa",
       fav:true 
     }, 
@@ -38,12 +38,20 @@ function App() {
      }, 
      { 
       id: uuid(),
-      equipo: "Juan Aurich", 
+      equipo: "Universitario", 
       foto: "https://scontent.fcix1-1.fna.fbcdn.net/v/t31.18172-8/17834194_1423544614332520_5671023925884542353_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGK6jwjZiTvyZWHDzpDSBNtNIpH46veFAg0ikfjq94UCN0uyYW6AgQimaWzoun0SHfhfVBIt46itFTqnXAMkTIH&_nc_ohc=VX4GxVnScrMAX_SgQjX&_nc_ht=scontent.fcix1-1.fna&oh=00_AfCEELIFyzRkFnhIFhJme__c2eT6bJU_srdkrWQpryvtVg&oe=64BAA619", 
       nombre: "Boris ", 
       puesto: "De lo que sea",
       fav:true
       },
+      { 
+        id: uuid(),
+        equipo: "Juan Aurich", 
+        foto:"https://github.com/kevinchs21.png",
+        nombre: "kevin Chomba ", 
+        puesto: "Desarrollador web",
+        fav:true
+        },
       { 
         id: uuid(),
         equipo: "Universitario", 
