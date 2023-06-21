@@ -14,20 +14,20 @@ const Carosel =()=>{
                     showStatus={false}
                     >
     <div>
-        <img className="main-img" src="./img/f1.jpg" alt="baldo"/>
-        <p className="legend">Baldoria</p>
+        <img className="main-img" src="./img/f1.jpg" alt="Juan Aurich"/>
+        <p className="legend">Juan Aurich</p>
     </div>
     <div>
-        <img className="main-img" src="./img/f2.jpg" alt="baldo"/>
-        <p className="legend">Cine</p>
+        <img className="main-img" src="./img/f2.jpg" alt="AL"/>
+        <p className="legend">Alianza Lima</p>
     </div>
     <div>
-        <img className="main-img" src="./img/f3.jpg" alt="baldo"/>
-        <p className="legend">Baldoria de nuevo xd</p>
+        <img className="main-img" src="./img/f3.jpg" alt="SC"/>
+        <p className="legend">Sporting Cristal</p>
     </div>
     <div>
-        <img className="main-img" src="./img/f4.jpg" alt="baldo"/>
-        <p className="legend">Zorritos</p>
+        <img className="main-img" src="./img/f4.jpg" alt="U"/>
+        <p className="legend">Universitario</p>
     </div>
       
 </Carousel>
