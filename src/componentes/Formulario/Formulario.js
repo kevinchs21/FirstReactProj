@@ -35,7 +35,7 @@ const Formulario = (props) =>{
 
     return <section className="formulario">
         <form onSubmit={manejarEnvio}>
-            <h2>Rellena el formulario para crear el colaborador</h2>
+            <h2>Rellena el formulario para crear el hincha</h2>
             <CampoTexto 
                 titulo="Nombre" 
                 placeholder="Ingresar Nombre"
@@ -44,7 +44,7 @@ const Formulario = (props) =>{
                 actualizarValor={actualizarNombre}
                 />
             <CampoTexto 
-                titulo="Puesto" 
+                titulo="Posición" 
                 placeholder="Ingresar Puesto"
                 valor={puesto}
                 actualizarValor={actualizarPuesto}

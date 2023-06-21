@@ -1,0 +1,26 @@
+
+.main-carousel{
+    background-color: rgba(9, 9, 9, 0.9);   
+ }
+ 
+ .main-carousel .main-img{
+    height: 700px;
+    object-fit: contain;
+ }
+
+ .carousel {
+    text-align: center;
+}
+
+.carousel .thumb{
+    height: 80px;
+    object-fit: cover;
+}
+.main-carousel p{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+
+

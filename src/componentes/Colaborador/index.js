@@ -2,6 +2,7 @@ import "./Colaborador.css"
 import {AiFillDelete, AiFillHeart, AiOutlineHeart} from "react-icons/ai"
 
 const Colaborador = (props) =>{
+    
     const {nombre, puesto, foto, id, fav} = props.datos
     const {colorPrimario, eliminarColaborador, like} = props
 

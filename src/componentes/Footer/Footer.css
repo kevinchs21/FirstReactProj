@@ -11,6 +11,20 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     }
+
+.footer-logo{
+    width: 130px;
+    height: 130px;
+    border-radius: 80px;
+}
+
 .redes img{ 
     padding: 0px 15px;
+    transition: .5s;
+    height: 50px;
+    width: 50px;
+}
+
+.redes img:hover{
+    transform: translateY(-10px);
 }
